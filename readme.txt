@@ -1,32 +1,28 @@
-This is a regression model which is used to predict the profit of startup based on several parameters.
-The parameters are:
-1. Research and development cost
-2. Administration cost
-3. Marketing cost
-The dataset used is -'50_startups.csv' 
+𝐓𝐡𝐢𝐬 𝐢𝐬 𝐚 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 𝐦𝐨𝐝𝐞𝐥 𝐰𝐡𝐢𝐜𝐡 𝐢𝐬 𝐮𝐬𝐞𝐝 𝐭𝐨 𝐩𝐫𝐞𝐝𝐢𝐜𝐭 𝐭𝐡𝐞 𝐩𝐫𝐨𝐟𝐢𝐭 𝐨𝐟 𝐬𝐭𝐚𝐫𝐭𝐮𝐩 𝐛𝐚𝐬𝐞𝐝 𝐨𝐧 𝐬𝐞𝐯𝐞𝐫𝐚𝐥 𝐩𝐚𝐫𝐚𝐦𝐞𝐭𝐞𝐫𝐬.
+𝐓𝐡𝐞 𝐩𝐚𝐫𝐚𝐦𝐞𝐭𝐞𝐫𝐬 𝐚𝐫𝐞:
+𝟏. 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐚𝐧𝐝 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐜𝐨𝐬𝐭
+𝟐. 𝐀𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 𝐜𝐨𝐬𝐭
+𝟑. 𝐌𝐚𝐫𝐤𝐞𝐭𝐢𝐧𝐠 𝐜𝐨𝐬𝐭
+𝐓𝐡𝐞 𝐝𝐚𝐭𝐚𝐬𝐞𝐭 𝐮𝐬𝐞𝐝 𝐢𝐬 -'𝟓𝟎_𝐬𝐭𝐚𝐫𝐭𝐮𝐩𝐬.𝐜𝐬𝐯' 
 
-It is deployed in a web app using django.
+𝐈𝐭 𝐢𝐬 𝐝𝐞𝐩𝐥𝐨𝐲𝐞𝐝 𝐢𝐧 𝐚 𝐰𝐞𝐛 𝐚𝐩𝐩 𝐮𝐬𝐢𝐧𝐠 𝐝𝐣𝐚𝐧𝐠𝐨.
 
+𝐓𝐨 𝐫𝐮𝐧 𝐭𝐡𝐢𝐬 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 𝐟𝐢𝐫𝐬𝐭 𝐨𝐟 𝐚𝐥𝐥- 𝐝𝐢𝐫𝐞𝐜𝐭𝐥𝐲 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐢𝐭 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐠𝐢𝐭𝐡𝐮𝐛.
+𝐎𝐩𝐞𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐩𝐫𝐨𝐦𝐩𝐭/𝐭𝐞𝐫𝐦𝐢𝐧𝐚𝐥.
 
-To run this project first of all- directly download it from the github.
-Open command prompt/terminal.
+𝐍𝐚𝐯𝐢𝐠𝐚𝐭𝐞 𝐭𝐨 𝐭𝐡𝐞 𝐥𝐨𝐜𝐚𝐭𝐢𝐨𝐧 𝐰𝐡𝐞𝐫𝐞 𝐒𝐭𝐚𝐫𝐭𝐔𝐩 𝐏𝐫𝐨𝐟𝐢𝐭 𝐢𝐬 𝐥𝐨𝐜𝐚𝐭𝐞𝐝.
+𝐀𝐬 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐢𝐭 𝐟𝐫𝐨𝐦 𝐠𝐢𝐭𝐡𝐮𝐛, 𝐬𝐨 𝐥𝐞𝐭𝐬 𝐬𝐮𝐩𝐩𝐨𝐬𝐞 𝐭𝐡𝐚𝐭 𝐢𝐭 𝐢𝐬 𝐨𝐧 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐬 𝐟𝐨𝐥𝐝𝐞𝐫 𝐨𝐧 𝐲𝐨𝐮𝐫 𝐩𝐜.
 
-Navigate to the location where StartUp Profit is located.
-As you have downloaded it from github, so lets suppose that it is on downloads folder on your pc.
+𝐈𝐧𝐜𝐚𝐬𝐞 𝐝𝐣𝐚𝐧𝐠𝐨 𝐢𝐬 𝐧𝐨𝐭 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐞𝐝, 𝐢𝐧𝐬𝐭𝐚𝐥𝐥 𝐢𝐭 𝐛𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝:
+𝐩𝐢𝐩 𝐢𝐧𝐬𝐭𝐚𝐥𝐥 𝐝𝐣𝐚𝐧𝐠𝐨
 
+𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐥𝐢𝐬𝐭𝐞𝐝 𝐛𝐞𝐥𝐨𝐰, 𝐭𝐨 𝐫𝐮𝐧 𝐢𝐭.
 
-Incase django is not installed, install it by command:
-pip install django
+𝐜𝐝 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐬
+𝐜𝐝 𝐒𝐭𝐚𝐫𝐭𝐔𝐩 𝐏𝐫𝐨𝐟𝐢𝐭
+𝐩𝐲𝐭𝐡𝐨𝐧 𝐦𝐚𝐧𝐚𝐠𝐞.𝐩𝐲 𝐫𝐮𝐧𝐬𝐞𝐫𝐯𝐞𝐫
 
-Type the commands listed below, to run it.
+𝐍𝐨𝐰, 𝐨𝐩𝐞𝐧 𝐲𝐨𝐮𝐫 𝐛𝐫𝐨𝐰𝐬𝐞𝐫 𝐚𝐧𝐝 𝐜𝐡𝐞𝐜𝐤 𝐭𝐲𝐩𝐞: 𝐡𝐭𝐭𝐩://𝟏𝟐𝟕.𝟎.𝟎.𝟏:𝟖𝟎𝟎𝟎/
+𝐓𝐡𝐞 𝐚𝐩𝐩 𝐰𝐢𝐥𝐥 𝐫𝐮𝐧 𝐨𝐧 𝐭𝐡𝐞 𝐚𝐛𝐨𝐯𝐞 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐞𝐝 𝐩𝐨𝐫𝐭.
 
-cd downloads
-cd StartUp Profit
-python manage.py runserver
-
-
-
-Now, open your browser and check type: http://127.0.0.1:8000/
-The app will run on the above specified port.
-
-The images of the app is specified in the StartUpProfit folder itself.
+𝐓𝐡𝐞 𝐢𝐦𝐚𝐠𝐞𝐬 𝐨𝐟 𝐭𝐡𝐞 𝐚𝐩𝐩 𝐢𝐬 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐞𝐝 𝐢𝐧 𝐭𝐡𝐞 𝐒𝐭𝐚𝐫𝐭𝐔𝐩𝐏𝐫𝐨𝐟𝐢𝐭 𝐟𝐨𝐥𝐝𝐞𝐫 𝐢𝐭𝐬𝐞𝐥𝐟.
